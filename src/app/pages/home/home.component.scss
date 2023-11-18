@@ -1,0 +1,38 @@
+.home {
+  height: 100vh;
+  .side {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .image {
+      display: flex;
+      justify-content: flex-start;
+      img {
+        width: 50%;
+        margin: 2rem;
+      }
+    }
+    .item {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      a {
+        margin: 1rem 0 0 2rem;
+        text-decoration: none;
+        color: lightgray;
+        font-size: 16px;
+        text-align: left !important;
+        transition: all 0.3s ease-in;
+      }
+      a:hover {
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+  .center {
+    background-color: #191919;
+  }
+}
